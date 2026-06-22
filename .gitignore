@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (raw, not tracked)
+data/*.raw
+data/*.sav
+data/*.csv
+data/*.xlsx
+
+# Analysis output
+analysis/*.spv
+
+# Temp
+*.tmp
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.env
